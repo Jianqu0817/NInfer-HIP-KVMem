@@ -1,0 +1,30 @@
+{
+  "archive_date": "2026-11-07",
+  "gpu_experiments_rerun": false,
+  "host_tests": [
+    {
+      "source": "tests\\host\\kvmem_policy_test.cpp",
+      "compile_exit": 0,
+      "run_exit": 0
+    },
+    {
+      "source": "tests\\host\\lrfu_history_test.cpp",
+      "compile_exit": 0,
+      "run_exit": 0
+    },
+    {
+      "source": "tests\\mtp_round_state_test.cpp",
+      "compile_exit": 0,
+      "run_exit": 0
+    }
+  ],
+  "host_compiler": "g++.exe (Rev2, Built by MSYS2 project) 14.2.0",
+  "host_standard": "c++20",
+  "build_dependency_check": "pass: existing ROCm SDK 7.14.1, MSVC 14.44, Windows SDK 26100",
+  "engine_translation_units": 424,
+  "python_syntax": "all four harness scripts parsed",
+  "credential_pattern_scan": "no matches in export",
+  "excluded_payload_scan": "no models, SDK, binaries, logs, .env or .bak files in versioned payload",
+  "original_build_receipt_sha256": "b6f1c49a543fad93169f8ad1382c1cc931b36ef9ad74c8e4cc67d212048b32ec",
+  "source_copy_verified": true
+}
